@@ -1,0 +1,49 @@
+<html>
+<style>
+    table, th, td {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table tr:nth-child(odd) {
+        background-color: #f1f1f1;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #ffffff;
+    }
+</style>
+<head>
+    <title>To Do List</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.5/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="app" ng-controller="Todo as todo">
+<h1>To Do List</h1>
+
+<input type="text" ng-model="todo.note" placeholder="note"><br>
+<br>
+<button ng-click="todo.add()">AddNote</button>
+<br><br>
+{{todo.message}}
+<br><br>
+<input type="text" ng-model="todo.id" placeholder="id"><br>
+<br>
+<button ng-click="todo.markdone()">Mark As Done</button>
+
+<br><br><br>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Note</th>
+        <th>Status</th>
+    </tr>
+    <tr ng-repeat="todoitem in todo.todos" value="{{todoitem.id}}">
+        <td>{{todoitem.id}}</td>
+        <td>{{todoitem.note}}</td>
+        <td>{{todoitem.status}}</td>
+    </tr>
+</table>
+</body>
+</html>
