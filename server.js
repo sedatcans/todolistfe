@@ -7,4 +7,4 @@ app.get('/', function(req, res){
     res.redirect('/index.html');
 });
 
-app.listen(30011);
+app.listen(process.env.PORT || 5000);

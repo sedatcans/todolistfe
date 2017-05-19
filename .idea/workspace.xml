@@ -11,7 +11,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../to-do-list-challenge/src/main/java/com/sedatcan/security/CustomerLoginFilter.java" afterPath="$PROJECT_DIR$/../to-do-list-challenge/src/main/java/com/sedatcan/security/CustomerLoginFilter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../to-do-list-challenge/src/main/java/com/sedatcan/security/TokenAuthenticationService.java" afterPath="$PROJECT_DIR$/../to-do-list-challenge/src/main/java/com/sedatcan/security/TokenAuthenticationService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../to-do-list-challenge/src/main/java/com/sedatcan/service/impl/ToDoListItemServiceImpl.java" afterPath="$PROJECT_DIR$/../to-do-list-challenge/src/main/java/com/sedatcan/service/impl/ToDoListItemServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../to-do-list-challenge/target/" />
@@ -89,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -769,12 +768,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495155894652</updated>
-      <workItem from="1495155916871" duration="32790000" />
+      <workItem from="1495155916871" duration="33017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32790000" />
+    <option name="totallyTimeSpent" value="33017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1121,7 +1120,7 @@
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding />
         </state>
       </provider>
